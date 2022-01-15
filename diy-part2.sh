@@ -11,6 +11,6 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.88.2/g' package/base-files/files/bin/config_generate
 # Modify Default string Default string
 sed -i 's/h=${g}' - '${a}${b}${c}${d}${e}${f}/h=${a}${b}${c}${d}${e}${f}/g' package/lean/autocore/files/x86/autocore
